@@ -10,10 +10,20 @@ namespace StackAndQueue
     {
         static void Main(string[] args)
         {
+
             Stack st = new Stack();
             st.Push(70);
             st.Push(30);
             st.Push(56);
+            st.display();
+            st.Peek();
+            st.Pop();
+            st.display();
+            st.Peek();
+            st.Pop();
+            st.display();
+            st.Peek();
+            st.Pop();
             st.display();
         }
     }
