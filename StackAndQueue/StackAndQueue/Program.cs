@@ -31,8 +31,12 @@ namespace StackAndQueue
             queue.Enqueue(30);
             queue.Enqueue(70);
             queue.Display();
-
-            
+            queue.Dequeue();
+            queue.Display();
+            queue.Dequeue();
+            queue.Display();
+            queue.Dequeue();
+            queue.Display();
         }
     }
 }

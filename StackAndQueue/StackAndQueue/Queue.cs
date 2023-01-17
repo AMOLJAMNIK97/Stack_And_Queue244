@@ -39,6 +39,15 @@ namespace StackAndQueue
                 temp = temp.Next;
             }
         }
+        public void Dequeue()
+        {
+            if (front == null)
+            {
+                Console.WriteLine("Queue is Empty");
+            }
+            Console.WriteLine("{0} element dequeue", front.data);
+            front = front.Next;
+        }
     }
 }
 
